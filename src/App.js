@@ -6,6 +6,7 @@ import Dashboard from './pages/dashboard/dashboard';
 import Crud from './pages/dashboard/crud';
 import NoMatch from './pages/NoMatch/NoMatch';
 
+
 function App() {
   return (
     <>  
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path='/employee' element={<Crud />} />
-        <Route path='*' element={<NoMatch />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
     </>
   );
