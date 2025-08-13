@@ -4,7 +4,7 @@ import './App.css';
 import Header from './pages/header/Header';
 import Dashboard from './pages/dashboard/dashboard';
 import Crud from './pages/dashboard/crud';
-import NoMatch from './pages/noMatch/noMatch';
+import NoMatch from './pages/NoMatch/NoMatch';
 
 function App() {
   return (

@@ -1,6 +1,9 @@
+import './Nomatch.css';
+
+
 const NoMatch = () => {
     return (
-        <><h1>404 - Page Not Found</h1></>
+        <><h1 className="test">404 - Page Not Found</h1></>
     )
 }
 
