@@ -46,7 +46,7 @@ const PostUser = () => {
         <div className="center-form">
             <h1>Employee</h1>
                 <Form onSubmit={handleSubmit}>
-                    <Form.Group controlID="formBasicName">
+                    <Form.Group controlId="formBasicName">
                         <Form.Control
                             type="text"
                             name="name"
@@ -56,7 +56,7 @@ const PostUser = () => {
                         />
                     </Form.Group>
 
-                    <Form.Group controlID="formBasicName">
+                    <Form.Group controlId="formBasicName">
                         <Form.Control
                             type="email"
                             name="email"
@@ -66,7 +66,7 @@ const PostUser = () => {
                         />
                     </Form.Group>
 
-                    <Form.Group controlID="formBasicName">
+                    <Form.Group controlId="formBasicName">
                         <Form.Control
                             type="text"
                             name="phone"
@@ -76,7 +76,7 @@ const PostUser = () => {
                         />
                     </Form.Group>
 
-                    <Form.Group controlID="formBasicName">
+                    <Form.Group controlId="formBasicName">
                         <Form.Control
                             type="text"
                             name="department"

@@ -5,6 +5,7 @@ import Header from './pages/header/Header';
 import Dashboard from './pages/dashboard/dashboard';
 import NoMatch from './pages/NoMatch/NoMatch';
 import PostUser from './pages/employee/PostUser';
+import GetAllUsers from './pages/employee/GetAllUsers';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path='/employee' element={<PostUser />} />
+        <Route path='/employees' element={<GetAllUsers />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </>
